@@ -45,5 +45,11 @@ python main.py [-h] [--file FILE] [--where "condition"] [--aggregate "condition"
   --aggregate "condition"
   Агрегация данных. Например python main.py --file data.csv --aggregate "rating=avg"
 
+## Как запустить тесты
+1. Находясь в корневой директории выполнить команду
+   ```
+   pytest -v
+   ```
+
 ## Пример работы скрипта
 ![image](https://github.com/user-attachments/assets/713f4020-385b-4f2e-8abf-e72e39fa33ed)
