@@ -38,12 +38,15 @@ python main.py [-h] [--file FILE] [--where "condition"] [--aggregate "condition"
 ```
 
 Опциональные аргументы:
-  --file file_name или "abs_file_path"
-  Имя файла если он в той же директории иили абсолютный путь в кавычках.    
-  --where "condition"
-  Фильтрация данных. Например python main.py --file data.csv --where "brand=apple"    
-  --aggregate "condition"
-  Агрегация данных. Например python main.py --file data.csv --aggregate "rating=avg"
+
+--file file_name или "abs_file_path"
+Имя файла если он в той же директории иили абсолютный путь в кавычках.
+
+--where "condition"
+Фильтрация данных. Например python main.py --file data.csv --where "brand=apple"
+
+--aggregate "condition"
+Агрегация данных. Например python main.py --file data.csv --aggregate "rating=avg"
 
 ## Как запустить тесты
 1. Находясь в корневой директории выполнить команду
